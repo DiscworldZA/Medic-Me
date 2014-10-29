@@ -1,6 +1,7 @@
 package chase.mods.medicme;
 
 import chase.mods.medicme.init.MedicMeBlocks;
+import chase.mods.medicme.plants.MedicMePlants;
 import chase.mods.medicme.proxy.IProxy;
 import chase.mods.medicme.reference.Names;
 import cpw.mods.fml.common.Mod;
@@ -34,6 +35,7 @@ public class MedicMe
 		// Init Items
 		// Init Blocks
 		MedicMeBlocks.init();
+		MedicMePlants.init();
 	}
 	
 	@EventHandler
